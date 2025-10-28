@@ -12,13 +12,13 @@ This repository installs the same handy dev aliases across **Linux/macOS (Bash +
 ## Quick Start
 
 Raw base for this repository:
-`https://raw.githubusercontent.com/kha333n/command-line-aliases/main`
+`https://raw.githubusercontent.com/kha333n/command-line-aliases/master`
 
 ### Linux/macOS (Bash + Fish together)
 ```bash
-/bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/kha333n/command-line-aliases/main/install/install-aliases.sh)"
+/bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/kha333n/command-line-aliases/master/install/install-aliases.sh)"
 # or
-# /bin/sh -c "$(wget -qO- https://raw.githubusercontent.com/kha333n/command-line-aliases/main/install/install-aliases.sh)"
+# /bin/sh -c "$(wget -qO- https://raw.githubusercontent.com/kha333n/command-line-aliases/master/install/install-aliases.sh)"
 ```
 After install:
 - Bash: `source ~/.bashrc` (or open a new terminal)
@@ -26,7 +26,7 @@ After install:
 
 ### Windows (PowerShell + CMD together)
 ```powershell
-irm https://raw.githubusercontent.com/kha333n/command-line-aliases/main/install/install-aliases.ps1 | iex
+irm https://raw.githubusercontent.com/kha333n/command-line-aliases/master/install/install-aliases.ps1 | iex
 ```
 After install:
 - PowerShell: `. $PROFILE` (or restart session)
