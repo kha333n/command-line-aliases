@@ -2,14 +2,9 @@
 $ErrorActionPreference = 'Stop'
 
 # Prefer explicit RAW_BASE if provided; otherwise try master then main
-$Bases = @()
-if ($env:RAW_BASE) {
-  $Bases = @($env:RAW_BASE.TrimEnd('/'))
-} else {
-  $Bases = @(
-    'https://raw.githubusercontent.com/kha333n/command-line-aliases/master'
-  )
-}
+$Bases = @(
+  'https://raw.githubusercontent.com/kha333n/command-line-aliases/master'
+)
 
 $aliasesDir = Join-Path $HOME ".config\aliases"
 New-Item -ItemType Directory -Force -Path $aliasesDir | Out-Null
