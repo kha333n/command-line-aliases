@@ -7,8 +7,7 @@ if ($env:RAW_BASE) {
   $Bases = @($env:RAW_BASE.TrimEnd('/'))
 } else {
   $Bases = @(
-    'https://raw.githubusercontent.com/kha333n/command-line-aliases/master',
-    'https://raw.githubusercontent.com/kha333n/command-line-aliases/main'
+    'https://raw.githubusercontent.com/kha333n/command-line-aliases/master'
   )
 }
 
